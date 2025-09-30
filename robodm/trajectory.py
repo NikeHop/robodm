@@ -7,7 +7,7 @@ import time
 import warnings
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
-# fractions.Fraction imported where needed
+from fractions import Fraction # imported where needed
 from typing import Any, Dict, List, Optional, Text, Tuple, Union, cast
 
 import av
