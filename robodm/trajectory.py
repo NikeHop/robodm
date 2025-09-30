@@ -560,8 +560,6 @@ class Trajectory(TrajectoryInterface):
         self.codec_config = CodecConfig(
             codec=video_codec,
             options=codec_options,
-            video_codec=video_codec if video_codec != "auto" else None,
-            raw_codec=raw_codec
         )
 
         # Dependency injection - set early so they're available during init
